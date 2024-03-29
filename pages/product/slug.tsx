@@ -1,11 +1,10 @@
 import { Box, Grid, Typography, Button, Chip } from "@mui/material";
-import { ShopLayout } from "../../components/layouts"
+import { ShopLayout } from "../../components/layouts";
 import { ProductSlidesShow, SizeSelector } from "../../components/products";
-import { initialData } from '../../database/products';
+import { initialData } from "../../database/products";
 import { ItemCounter } from "../../components/ui";
 
-
-const product = initialData.products[0]
+const product = initialData.products[0];
 
 const ProductPage = () => {
   return (
@@ -15,20 +14,26 @@ const ProductPage = () => {
           <ProductSlidesShow images={product.images} />
         </Grid>
         <Grid item xs={12} sm={5}>
-          <Box display='flex' flexDirection='column'>
+          <Box display="flex" flexDirection="column">
             {/* titulos */}
-            <Typography variant="h1" component='h1'>{product.title}</Typography>
-            <Typography variant="subtitle1" component='h2'>{`$${product.price}`}</Typography>
+            <Typography variant="h1" component="h1">
+              {product.title}
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              component="h2"
+            >{`$${product.price}`}</Typography>
             {/* cantidad */}
-            <Box sx={{ my: 2 }} >
+            <Box sx={{ my: 2 }}>
               <Typography variant="subtitle2">Cantidad</Typography>
               {/* itemCounter */}
               <ItemCounter />
               <SizeSelector
-                // selectedSize={product.sizes[0]} 
-                sizes={product.sizes} />
+                // selectedSize={product.sizes[0]}
+                sizes={product.sizes}
+              />
             </Box>
-            <Button color="secondary" className='circular-btn'>
+            <Button color="secondary" className="circular-btn">
               Agregar a carrito
             </Button>
             {/* <Chip label='No hay disponibles' color='error' variant='outlined' /> */}
@@ -41,7 +46,7 @@ const ProductPage = () => {
         </Grid>
       </Grid>
     </ShopLayout>
-  )
-}
+  );
+};
 
-export default ProductPage
+export default ProductPage;

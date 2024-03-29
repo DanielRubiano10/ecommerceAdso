@@ -1,27 +1,28 @@
-
-import { FC } from 'react'
-import Head from 'next/head'
-import { Navbar, SideMenu } from '../ui';
+import { FC } from "react";
+import Head from "next/head";
+import { Navbar, SideMenu } from "../ui";
 
 interface Props {
+  children: string;
   title: string;
   pageDescription: string;
-  imageFullUrl?: string
+  imageFullUrl?: string;
 }
 
-export const ShopLayout: FC<Props> = ({ children, title, pageDescription, imageFullUrl }) => {
+export const ShopLayout: FC<Props> = ({
+  children,
+  title,
+  pageDescription,
+  imageFullUrl,
+}) => {
   return (
     <>
       <Head>
         <title>{title}</title>
-        <meta name='description' content={pageDescription} />
-        <meta name='og:title' content={title} />
-        <meta name='og:description' content={pageDescription} />
-        {
-          imageFullUrl && (
-            <meta name='og:title' content={imageFullUrl} />
-          )
-        }
+        <meta name="description" content={pageDescription} />
+        <meta name="og:title" content={title} />
+        <meta name="og:description" content={pageDescription} />
+        {imageFullUrl && <meta name="og:title" content={imageFullUrl} />}
       </Head>
       <nav>
         {/* TODO: Navbar */}
@@ -29,18 +30,17 @@ export const ShopLayout: FC<Props> = ({ children, title, pageDescription, imageF
         <Navbar />
       </nav>
       {/* TODO: Sidbar */}
-      <main style={{
-        margin: '80px auto',
-        maxWidth: '1440px',
-        padding: '0px 30px'
-
-      }}>
+      <main
+        style={{
+          margin: "80px auto",
+          maxWidth: "1440px",
+          padding: "0px 30px",
+        }}
+      >
         {children}
       </main>
       {/* TODO: Footer */}
-      <footer>
-        {/* TODO: custom Footer */}
-      </footer>
+      <footer>{/* TODO: custom Footer */}</footer>
     </>
-  )
-}
+  );
+};

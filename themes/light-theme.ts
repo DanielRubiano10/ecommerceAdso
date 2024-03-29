@@ -1,33 +1,33 @@
-import { createTheme } from '@mui/material/styles';
-import { red } from '@mui/material/colors';
+import { createTheme } from "@mui/material/styles";
+import { red } from "@mui/material/colors";
 
 export const lightTheme = createTheme({
   palette: {
-    mode: 'light',
+    mode: "light",
     primary: {
-      main: '#1E1E1E',
+      main: "#1E1E1E",
     },
     secondary: {
-      main: '#30d680',
+      main: "#dc143c",
     },
     info: {
-      main: '#fff',
+      main: "#fff",
     },
   },
   components: {
     MuiLink: {
       defaultProps: {
-        underline: 'none',
+        underline: "none",
       },
     },
     MuiAppBar: {
       defaultProps: {
         elevation: 0,
-        position: 'fixed',
+        position: "fixed",
       },
       styleOverrides: {
         root: {
-          backgroundColor: 'white',
+          backgroundColor: "white",
           height: 60,
         },
       },
@@ -52,19 +52,19 @@ export const lightTheme = createTheme({
 
     MuiButton: {
       defaultProps: {
-        variant: 'contained',
-        size: 'small',
+        variant: "contained",
+        size: "small",
         disableElevation: true,
-        color: 'info',
+        color: "info",
       },
       styleOverrides: {
         root: {
-          textTransform: 'none',
-          boxShadow: 'none',
+          textTransform: "none",
+          boxShadow: "none",
           borderRadius: 10,
-          ':hover': {
-            backgroundColor: 'rgba(0,0,0,0.05)',
-            transition: 'all 0.3s ease-in-out',
+          ":hover": {
+            backgroundColor: "rgba(0,0,0,0.05)",
+            transition: "all 0.3s ease-in-out",
           },
         },
       },
@@ -76,8 +76,8 @@ export const lightTheme = createTheme({
       },
       styleOverrides: {
         root: {
-          boxShadow: '0px 5px 5px rgba(0,0,0,0.05)',
-          borderRadius: '10px',
+          boxShadow: "0px 5px 5px rgba(0,0,0,0.05)",
+          borderRadius: "10px",
         },
       },
     },
