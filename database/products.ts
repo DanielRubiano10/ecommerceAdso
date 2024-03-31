@@ -12,7 +12,7 @@ interface SeedProduct {
 }
 
 type ValidSizes = "XS" | "S" | "M" | "L" | "XL" | "XXL" | "3XL";
-type ValidTypes = "camisetas" | "buzos" | "gorras";
+type ValidTypes = "camisetas" | "buzos" | "Productos";
 
 interface SeedData {
   products: SeedProduct[];
@@ -249,7 +249,7 @@ export const initialData: SeedData = {
       price: 69000,
       sizes: ["S", "M", "L", "XL"],
       slug: "gorra-tech-github",
-      type: "gorras",
+      type: "Productos",
       tags: ["github"],
       title: "Gorra Github",
       gender: "unisex",
@@ -262,7 +262,7 @@ export const initialData: SeedData = {
       price: 199000,
       sizes: ["S", "M", "L", "XL"],
       slug: "gorra-tech-react",
-      type: "gorras",
+      type: "Productos",
       tags: ["react"],
       title: "Best 2.04 LB",
       gender: "unisex",
@@ -275,7 +275,7 @@ export const initialData: SeedData = {
       price: 370000,
       sizes: ["S", "M", "L", "XL"],
       slug: "gorra-tech-js",
-      type: "gorras",
+      type: "Productos",
       tags: ["js"],
       title: "Best 4 LB",
       gender: "unisex",
@@ -288,7 +288,7 @@ export const initialData: SeedData = {
       price: 370000,
       sizes: ["S", "M", "L", "XL"],
       slug: "gorra-tech-ubuntu",
-      type: "gorras",
+      type: "Productos",
       tags: ["ubuntu"],
       title: "Best 4 LB Bolsa",
       gender: "unisex",
@@ -296,12 +296,12 @@ export const initialData: SeedData = {
     {
       description:
         "Bipro Classic es una proteína de suero de alta pureza y concentración, con mínimos niveles de grasa y lactosa.",
-      images: ["BiPro.JPG","BiPro6lb.JPG"],
+      images: ["BiPro.JPG", "BiPro6lb.JPG"],
       inStock: 15,
       price: 149000,
       sizes: ["S", "M", "L", "XL"],
       slug: "gorra-tech-angular",
-      type: "gorras",
+      type: "Productos",
       tags: ["angular"],
       title: "Bipro Classic",
       gender: "unisex",
@@ -348,7 +348,7 @@ export const initialData: SeedData = {
     {
       description:
         "ELECTRON es una mezcla en polvo a base de fruta micro pulverizada, que tiene ingredientes como Taurina, Tirosina, Cafeina, entre otros.",
-      images: ["Electron.JPG","Electron.JPG"],
+      images: ["Electron.JPG", "Electron.JPG"],
       inStock: 15,
       price: 125000,
       sizes: ["S", "M", "L", "XL"],

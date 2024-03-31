@@ -25,7 +25,7 @@ const LoginPage = () => {
 
           <Grid item xs={12}>
             <Button
-              color="error"
+              color="secondary"
               className="circular-btn"
               size="large"
               fullWidth
