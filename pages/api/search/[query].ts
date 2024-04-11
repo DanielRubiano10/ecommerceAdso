@@ -1,7 +1,7 @@
-import type { NextApiRequest, NextApiResponse } from 'next';
-import { db } from '../../../database';
-import { Product } from '../../../models';
-import { IProduct } from '../../../interfaces';
+import type { NextApiRequest, NextApiResponse } from "next";
+import { db } from "../../../database";
+import { Product } from "../../../models";
+import { IProduct } from "../../../interfaces";
 
 type Data = { name: string } | IProduct[];
 
@@ -10,11 +10,11 @@ export default function handler(
   res: NextApiResponse<Data>
 ) {
   switch (req.method) {
-    case 'GET':
+    case "GET":
       return searchProducts(req, res);
     default:
       return res.status(400).json({
-        name: 'Bad request',
+        name: "Bad request",
       });
   }
 }
@@ -22,11 +22,11 @@ const searchProducts = async (
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) => {
-  let { query = '' } = req.query;
+  let { query = "" } = req.query;
 
   if (query.length === 0) {
     return res.status(400).json({
-      name: 'Debe de especificar la búsqueda',
+      name: "Debe de especificar la búsqueda",
     });
   }
 
@@ -36,7 +36,7 @@ const searchProducts = async (
   const products = await Product.find({
     $text: { $search: query },
   })
-    .select('title images price inStock slug -_id')
+    .select("title images price inStock slug -_id")
     .lean();
   await db.disconnect();
 

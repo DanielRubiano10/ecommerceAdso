@@ -22,8 +22,8 @@ export const initialData: SeedData = {
   products: [
     {
       description:
-        "La camiseta tradicional de toda la vida Corte recto, clásico y holgado Tejido grueso de 180 g/m² de gramaje, colores lisos en algodón sanforizado. El color gris jaspeado es 90 % algodón y 10 % poliéster; el denim jaspeado es 50 % poliéster. Cuello y dobladillos con doble puntada para una mayor durabilidad La imprenta independiente que imprime este producto ha sido evaluada de acuerdo con los estándares de la Organización Internacional del Trabajo.La imprenta independiente que imprime este producto obtiene sus materiales de fabricantes comprometidos con la mejora de las prácticas de cultivo de algodón.",
-      images: ["Android_M1_B.jpg", "Android_M1_N.jpg"],
+        "Descubre la esencia de la comodidad con nuestra emblemática camiseta. Con un estilo atemporal y un corte que favorece a todos, esta prenda te brinda la sensación de libertad que necesitas en cada movimiento. Fabricada con algodón sanforizado de alta calidad y un gramaje de 180 g/m², garantiza una durabilidad excepcional. Disponible en una variedad de colores lisos, esta camiseta es una expresión de tu estilo único y tu compromiso con la calidad. Además, respaldamos prácticas éticas en la fabricación, asegurando que cada producto refleje nuestros valores de sostenibilidad y responsabilidad social.",
+      images: ["rubiano_Uno.jpg", "rubiano.jpg"],
       inStock: 7,
       price: 69000,
       sizes: ["XS", "S", "M", "L", "XL", "XXL"],
@@ -36,7 +36,7 @@ export const initialData: SeedData = {
     {
       description:
         "La camiseta tradicional de toda la vida Corte recto, clásico y holgado Tejido grueso de 180 g/m² de gramaje, colores lisos en algodón sanforizado. El color gris jaspeado es 90 % algodón y 10 % poliéster; el denim jaspeado es 50 % poliéster. Cuello y dobladillos con doble puntada para una mayor durabilidad La imprenta independiente que imprime este producto ha sido evaluada de acuerdo con los estándares de la Organización Internacional del Trabajo.La imprenta independiente que imprime este producto obtiene sus materiales de fabricantes comprometidos con la mejora de las prácticas de cultivo de algodón.",
-      images: ["Angular_M1_B.jpg", "Angular_M1_B.jpg"],
+      images: ["AdidasAzul.jpg", "cadena.jpg"],
       inStock: 5,
       price: 69000,
       sizes: ["XS", "S", "M", "XL", "XXL"],
@@ -47,9 +47,8 @@ export const initialData: SeedData = {
       gender: "hombre",
     },
     {
-      description:
-        "La camiseta tradicional de toda la vida Corte recto, clásico y holgado Tejido grueso de 180 g/m² de gramaje, colores lisos en algodón sanforizado. El color gris jaspeado es 90 % algodón y 10 % poliéster; el denim jaspeado es 50 % poliéster. Cuello y dobladillos con doble puntada para una mayor durabilidad La imprenta independiente que imprime este producto ha sido evaluada de acuerdo con los estándares de la Organización Internacional del Trabajo.La imprenta independiente que imprime este producto obtiene sus materiales de fabricantes comprometidos con la mejora de las prácticas de cultivo de algodón.",
-      images: ["Archlinux1_B.jpg", "Archlinux1_N.jpg"],
+      description: "Descubre la esencia de la comodidad ",
+      images: ["AdidasBlanc.jpg", "AdidasBlanc1.jpg"],
       inStock: 13,
       price: 69000,
       sizes: ["S", "M", "L", "XL", "XXL"],
@@ -62,7 +61,7 @@ export const initialData: SeedData = {
     {
       description:
         "La camiseta tradicional de toda la vida Corte recto, clásico y holgado Tejido grueso de 180 g/m² de gramaje, colores lisos en algodón sanforizado. El color gris jaspeado es 90 % algodón y 10 % poliéster; el denim jaspeado es 50 % poliéster. Cuello y dobladillos con doble puntada para una mayor durabilidad La imprenta independiente que imprime este producto ha sido evaluada de acuerdo con los estándares de la Organización Internacional del Trabajo.La imprenta independiente que imprime este producto obtiene sus materiales de fabricantes comprometidos con la mejora de las prácticas de cultivo de algodón.",
-      images: ["Aws_M1_B.jpg", "Aws_M1_N.jpg"],
+      images: ["AdidasVer.jpg", "AdidasVer1.jpg"],
       inStock: 50,
       price: 45,
       sizes: ["XS", "S", "M", "L"],
@@ -75,7 +74,7 @@ export const initialData: SeedData = {
     {
       description:
         "La camiseta tradicional de toda la vida Corte recto, clásico y holgado Tejido grueso de 180 g/m² de gramaje, colores lisos en algodón sanforizado. El color gris jaspeado es 90 % algodón y 10 % poliéster; el denim jaspeado es 50 % poliéster. Cuello y dobladillos con doble puntada para una mayor durabilidad La imprenta independiente que imprime este producto ha sido evaluada de acuerdo con los estándares de la Organización Internacional del Trabajo.La imprenta independiente que imprime este producto obtiene sus materiales de fabricantes comprometidos con la mejora de las prácticas de cultivo de algodón.",
-      images: ["Aws_Azure_M1_B.jpg", "Aws_Azure_M1.jpg"],
+      images: ["AdidasNeg.jpg", "AdidasNeg1.jpg"],
       inStock: 50,
       price: 40,
       sizes: ["M", "L", "XL", "XXL"],
@@ -88,7 +87,7 @@ export const initialData: SeedData = {
     {
       description:
         "La camiseta tradicional de toda la vida Corte recto, clásico y holgado Tejido grueso de 180 g/m² de gramaje, colores lisos en algodón sanforizado. El color gris jaspeado es 90 % algodón y 10 % poliéster; el denim jaspeado es 50 % poliéster. Cuello y dobladillos con doble puntada para una mayor durabilidad La imprenta independiente que imprime este producto ha sido evaluada de acuerdo con los estándares de la Organización Internacional del Trabajo.La imprenta independiente que imprime este producto obtiene sus materiales de fabricantes comprometidos con la mejora de las prácticas de cultivo de algodón.",
-      images: ["Azure_M1_B.jpg", "Azure_M1_N.jpg"],
+      images: ["Adidas_Azul.jpg", "Adidas_Azu1.jpg"],
       inStock: 0,
       price: 35,
       sizes: ["M", "L", "XL", "XXL"],
@@ -101,7 +100,7 @@ export const initialData: SeedData = {
     {
       description:
         "La camiseta tradicional de toda la vida Corte recto, clásico y holgado Tejido grueso de 180 g/m² de gramaje, colores lisos en algodón sanforizado. El color gris jaspeado es 90 % algodón y 10 % poliéster; el denim jaspeado es 50 % poliéster. Cuello y dobladillos con doble puntada para una mayor durabilidad La imprenta independiente que imprime este producto ha sido evaluada de acuerdo con los estándares de la Organización Internacional del Trabajo.La imprenta independiente que imprime este producto obtiene sus materiales de fabricantes comprometidos con la mejora de las prácticas de cultivo de algodón.",
-      images: ["Css_M1_B.jpg", "Css_M1_N.jpg"],
+      images: ["licr_1.jpg", "licr.jpg"],
       inStock: 15,
       price: 69000,
       sizes: ["S", "M", "L", "XL"],
@@ -114,7 +113,7 @@ export const initialData: SeedData = {
     {
       description:
         "La camiseta tradicional de toda la vida Corte recto, clásico y holgado Tejido grueso de 180 g/m² de gramaje, colores lisos en algodón sanforizado. El color gris jaspeado es 90 % algodón y 10 % poliéster; el denim jaspeado es 50 % poliéster. Cuello y dobladillos con doble puntada para una mayor durabilidad La imprenta independiente que imprime este producto ha sido evaluada de acuerdo con los estándares de la Organización Internacional del Trabajo.La imprenta independiente que imprime este producto obtiene sus materiales de fabricantes comprometidos con la mejora de las prácticas de cultivo de algodón.",
-      images: ["Docker_M1_B.jpg", "Docker_M1_N.jpg"],
+      images: ["LicNeg.jpg", "LicNegra.jpg"],
       inStock: 15,
       price: 69000,
       sizes: ["S", "M", "L", "XL"],
@@ -127,7 +126,7 @@ export const initialData: SeedData = {
     {
       description:
         "La camiseta tradicional de toda la vida Corte recto, clásico y holgado Tejido grueso de 180 g/m² de gramaje, colores lisos en algodón sanforizado. El color gris jaspeado es 90 % algodón y 10 % poliéster; el denim jaspeado es 50 % poliéster. Cuello y dobladillos con doble puntada para una mayor durabilidad La imprenta independiente que imprime este producto ha sido evaluada de acuerdo con los estándares de la Organización Internacional del Trabajo.La imprenta independiente que imprime este producto obtiene sus materiales de fabricantes comprometidos con la mejora de las prácticas de cultivo de algodón.",
-      images: ["Cisco_M1_B.jpg", "Cisco_M1_N.jpg"],
+      images: ["LicRosa.jpg", "LicRosa1.jpg"],
       inStock: 15,
       price: 69000,
       sizes: ["S", "M", "L", "XL"],
@@ -140,7 +139,7 @@ export const initialData: SeedData = {
     {
       description:
         "La camiseta tradicional de toda la vida Corte recto, clásico y holgado Tejido grueso de 180 g/m² de gramaje, colores lisos en algodón sanforizado. El color gris jaspeado es 90 % algodón y 10 % poliéster; el denim jaspeado es 50 % poliéster. Cuello y dobladillos con doble puntada para una mayor durabilidad La imprenta independiente que imprime este producto ha sido evaluada de acuerdo con los estándares de la Organización Internacional del Trabajo.La imprenta independiente que imprime este producto obtiene sus materiales de fabricantes comprometidos con la mejora de las prácticas de cultivo de algodón.",
-      images: ["Csharp_M1_B.jpg", "Csharp_M1_N.jpg"],
+      images: ["Nike.jpg", "Nike1.jpg"],
       inStock: 15,
       price: 69000,
       sizes: ["S", "M", "L", "XL"],
@@ -153,7 +152,7 @@ export const initialData: SeedData = {
     {
       description:
         "La camiseta tradicional de toda la vida Corte recto, clásico y holgado Tejido grueso de 180 g/m² de gramaje, colores lisos en algodón sanforizado. El color gris jaspeado es 90 % algodón y 10 % poliéster; el denim jaspeado es 50 % poliéster. Cuello y dobladillos con doble puntada para una mayor durabilidad La imprenta independiente que imprime este producto ha sido evaluada de acuerdo con los estándares de la Organización Internacional del Trabajo.La imprenta independiente que imprime este producto obtiene sus materiales de fabricantes comprometidos con la mejora de las prácticas de cultivo de algodón.",
-      images: ["Edubuntu1_B.jpg", "Edubuntu1_N.jpg"],
+      images: ["NikeAzul.jpg", "NikeAzu1.jpg"],
       inStock: 15,
       price: 69000,
       sizes: ["S", "M", "L", "XL"],
@@ -166,7 +165,7 @@ export const initialData: SeedData = {
     {
       description:
         "La camiseta tradicional de toda la vida Corte recto, clásico y holgado Tejido grueso de 180 g/m² de gramaje, colores lisos en algodón sanforizado. El color gris jaspeado es 90 % algodón y 10 % poliéster; el denim jaspeado es 50 % poliéster. Cuello y dobladillos con doble puntada para una mayor durabilidad La imprenta independiente que imprime este producto ha sido evaluada de acuerdo con los estándares de la Organización Internacional del Trabajo.La imprenta independiente que imprime este producto obtiene sus materiales de fabricantes comprometidos con la mejora de las prácticas de cultivo de algodón.",
-      images: ["Flutter_M1_B.jpg", "Flutter_M1_N.jpg"],
+      images: ["NikeNeg.jpg", "NikeNeg1.jpg"],
       inStock: 15,
       price: 69000,
       sizes: ["S", "M", "L", "XL"],
@@ -179,7 +178,7 @@ export const initialData: SeedData = {
     {
       description:
         "La camiseta tradicional de toda la vida Corte recto, clásico y holgado Tejido grueso de 180 g/m² de gramaje, colores lisos en algodón sanforizado. El color gris jaspeado es 90 % algodón y 10 % poliéster; el denim jaspeado es 50 % poliéster. Cuello y dobladillos con doble puntada para una mayor durabilidad La imprenta independiente que imprime este producto ha sido evaluada de acuerdo con los estándares de la Organización Internacional del Trabajo.La imprenta independiente que imprime este producto obtiene sus materiales de fabricantes comprometidos con la mejora de las prácticas de cultivo de algodón.",
-      images: ["Github_M1_B.jpg", "Github_M1_N.jpg"],
+      images: ["Nike_A.jpg", "Nike_B.jpg"],
       inStock: 15,
       price: 69000,
       sizes: ["S", "M", "L", "XL"],
@@ -192,7 +191,7 @@ export const initialData: SeedData = {
     {
       description:
         "La camiseta tradicional de toda la vida Corte recto, clásico y holgado Tejido grueso de 180 g/m² de gramaje, colores lisos en algodón sanforizado. El color gris jaspeado es 90 % algodón y 10 % poliéster; el denim jaspeado es 50 % poliéster. Cuello y dobladillos con doble puntada para una mayor durabilidad La imprenta independiente que imprime este producto ha sido evaluada de acuerdo con los estándares de la Organización Internacional del Trabajo.La imprenta independiente que imprime este producto obtiene sus materiales de fabricantes comprometidos con la mejora de las prácticas de cultivo de algodón.",
-      images: ["Github_TshirtB.jpg", "Github_TshirtB2.jpg"],
+      images: ["NikeC.jpg", "Nike_C.jpg"],
       inStock: 15,
       price: 69000,
       sizes: ["S", "M", "L", "XL"],
@@ -205,7 +204,7 @@ export const initialData: SeedData = {
     {
       description:
         "La camiseta tradicional de toda la vida Corte recto, clásico y holgado Tejido grueso de 180 g/m² de gramaje, colores lisos en algodón sanforizado. El color gris jaspeado es 90 % algodón y 10 % poliéster; el denim jaspeado es 50 % poliéster. Cuello y dobladillos con doble puntada para una mayor durabilidad La imprenta independiente que imprime este producto ha sido evaluada de acuerdo con los estándares de la Organización Internacional del Trabajo.La imprenta independiente que imprime este producto obtiene sus materiales de fabricantes comprometidos con la mejora de las prácticas de cultivo de algodón.",
-      images: ["Gitlab_M1_B.jpg", "Gitlab_M1_N.jpg"],
+      images: ["NikeD.jpg", "Nike_D.jpg"],
       inStock: 15,
       price: 69000,
       sizes: ["S", "M", "L", "XL"],
@@ -218,7 +217,7 @@ export const initialData: SeedData = {
     {
       description:
         "La camiseta tradicional de toda la vida Corte recto, clásico y holgado Tejido grueso de 180 g/m² de gramaje, colores lisos en algodón sanforizado. El color gris jaspeado es 90 % algodón y 10 % poliéster; el denim jaspeado es 50 % poliéster. Cuello y dobladillos con doble puntada para una mayor durabilidad La imprenta independiente que imprime este producto ha sido evaluada de acuerdo con los estándares de la Organización Internacional del Trabajo.La imprenta independiente que imprime este producto obtiene sus materiales de fabricantes comprometidos con la mejora de las prácticas de cultivo de algodón.",
-      images: ["Golang.jpg", "Golang_N.jpg"],
+      images: ["NikCam.jpg", "NikCam1.jpg"],
       inStock: 15,
       price: 69000,
       sizes: ["S", "M", "L", "XL"],
@@ -231,7 +230,7 @@ export const initialData: SeedData = {
     {
       description:
         "La camiseta tradicional de toda la vida Corte recto, clásico y holgado Tejido grueso de 180 g/m² de gramaje, colores lisos en algodón sanforizado. El color gris jaspeado es 90 % algodón y 10 % poliéster; el denim jaspeado es 50 % poliéster. Cuello y dobladillos con doble puntada para una mayor durabilidad La imprenta independiente que imprime este producto ha sido evaluada de acuerdo con los estándares de la Organización Internacional del Trabajo.La imprenta independiente que imprime este producto obtiene sus materiales de fabricantes comprometidos con la mejora de las prácticas de cultivo de algodón.",
-      images: ["GoogleCloud_M1.jpg", "GoogleCloud_M1C_N.jpg"],
+      images: ["NikeVer.jpg", "NikeVer1.jpg"],
       inStock: 15,
       price: 69000,
       sizes: ["S", "M", "L", "XL"],
@@ -244,7 +243,7 @@ export const initialData: SeedData = {
     {
       description:
         "Gorra BORDADA en Drill Vulcano 100% algodón tipo beisbolera con botón, costuras encintadas con frente partido y fusionado con ojales en los dos laterales, 4 costuras en la visera, broche hebilla caimán. Elaborada en tela dril super 8(100%) peso 155 gr. Tamaño graduable estandard adulto: 50-60 cm . Hebilla metalica.",
-      images: ["gorra-githut-2.jpg", "gorra_github.jpg"],
+      images: ["NikeCaf.jpg", "NikeCaf1.jpg"],
       inStock: 15,
       price: 69000,
       sizes: ["S", "M", "L", "XL"],
@@ -486,110 +485,6 @@ export const initialData: SeedData = {
       type: "buzos",
       tags: ["dev-id"],
       title: "Lipo 6 Black Hers Ultra",
-      gender: "hombre",
-    },
-    {
-      description:
-        "Buzo con capota y bolsillo tipo canguro en tela algodón perchado calidad nacional patprimo. Estampado en vinilo textil de Alta calidad. *Material suave con la piel, resistente y de excelente calidad.",
-      images: ["HOODIE-17.2.jpg", "HOODIE-17.1.jpg"],
-      inStock: 15,
-      price: 126000,
-      sizes: ["S", "M", "L", "XL"],
-      slug: "buzo-you-are-linux",
-      type: "buzos",
-      tags: ["dev-linux"],
-      title: "Buzo Linux",
-      gender: "hombre",
-    },
-    {
-      description:
-        "Buzo con capota y bolsillo tipo canguro en tela algodón perchado calidad nacional patprimo. Estampado en vinilo textil de Alta calidad. *Material suave con la piel, resistente y de excelente calidad.",
-      images: ["HOODIE-20.2.jpg", "HOODIE-20.1.jpg"],
-      inStock: 15,
-      price: 126000,
-      sizes: ["S", "M", "L", "XL"],
-      slug: "buzo-you-are-starkoverflow",
-      type: "buzos",
-      tags: ["dev-starkoverflow"],
-      title: "Buzo starkoverflow",
-      gender: "hombre",
-    },
-    {
-      description:
-        "Buzo con capota y bolsillo tipo canguro en tela algodón perchado calidad nacional patprimo. Estampado en vinilo textil de Alta calidad. *Material suave con la piel, resistente y de excelente calidad.",
-      images: ["HOODIE-21.2.jpg", "HOODIE-22.1.jpg"],
-      inStock: 15,
-      price: 126000,
-      sizes: ["S", "M", "L", "XL"],
-      slug: "buzo-you-are-internet",
-      type: "buzos",
-      tags: ["dev-internet"],
-      title: "Buzo internet",
-      gender: "hombre",
-    },
-    {
-      description:
-        "Buzo con capota y bolsillo tipo canguro en tela algodón perchado calidad nacional patprimo. Estampado en vinilo textil de Alta calidad. *Material suave con la piel, resistente y de excelente calidad.",
-      images: ["HOODIE-23.2.jpg", "HOODIE-23.1.jpg"],
-      inStock: 15,
-      price: 126000,
-      sizes: ["S", "M", "L", "XL"],
-      slug: "buzo-you-are-github",
-      type: "buzos",
-      tags: ["dev-github"],
-      title: "Buzo github",
-      gender: "hombre",
-    },
-    {
-      description:
-        "Buzo con capota y bolsillo tipo canguro en tela algodón perchado calidad nacional patprimo. Estampado en vinilo textil de Alta calidad. *Material suave con la piel, resistente y de excelente calidad.",
-      images: ["HOODIE-24.2.jpg", "HOODIE-24.1.jpg"],
-      inStock: 15,
-      price: 126000,
-      sizes: ["S", "M", "L", "XL"],
-      slug: "buzo-you-are-json",
-      type: "buzos",
-      tags: ["dev-json"],
-      title: "Buzo json",
-      gender: "hombre",
-    },
-    {
-      description:
-        "Buzo con capota y bolsillo tipo canguro en tela algodón perchado calidad nacional patprimo. Estampado en vinilo textil de Alta calidad. *Material suave con la piel, resistente y de excelente calidad.",
-      images: ["HOODIE-25.2.jpg", "HOODIE-25.1.jpg"],
-      inStock: 15,
-      price: 126000,
-      sizes: ["S", "M", "L", "XL"],
-      slug: "buzo-you-are-json-2",
-      type: "buzos",
-      tags: ["dev-json"],
-      title: "Buzo json new",
-      gender: "hombre",
-    },
-    {
-      description:
-        "Buzo con capota y bolsillo tipo canguro en tela algodón perchado calidad nacional patprimo. Estampado en vinilo textil de Alta calidad. *Material suave con la piel, resistente y de excelente calidad.",
-      images: ["HOODIE-27.2_1.jpg", "HOODIE-28.1.jpg"],
-      inStock: 15,
-      price: 126000,
-      sizes: ["S", "M", "L", "XL"],
-      slug: "buzo-you-are-power-bi",
-      type: "buzos",
-      tags: ["dev-power-bi"],
-      title: "Buzo Power Bi",
-      gender: "hombre",
-    },
-    {
-      description:
-        "Buzo con capota y bolsillo tipo canguro en tela algodón perchado calidad nacional patprimo. Estampado en vinilo textil de Alta calidad. *Material suave con la piel, resistente y de excelente calidad.",
-      images: ["HOODIE-30.2.jpg", "HOODIE-30.1.jpg"],
-      inStock: 15,
-      price: 126000,
-      sizes: ["S", "M", "L", "XL"],
-      slug: "buzo-you-are-code",
-      type: "buzos",
-      tags: ["dev-code"],
-      title: "Buzo code",
       gender: "hombre",
     },
   ],
