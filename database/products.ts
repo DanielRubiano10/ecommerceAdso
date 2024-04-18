@@ -217,7 +217,7 @@ export const initialData: SeedData = {
     {
       description:
         "La camiseta Ready con capilarización del sudor mantiene la frescura durante todas tus actividades de fitness. Cuenta con un ajuste holgado y un tejido transpirable de secado rápido para mantener la frescura cuando el entrenamiento se intensifica. Además, cuenta con mangas angulares para facilitar el movimiento, tanto al levantar pesas en el gimnasio como al estirar al aire libre.",
-      images: ["NikCam.jpg", "NikCam1.jpg"],
+      images: ["NikeVer.jpg", "NikeVer1.jpg"],
       inStock: 15,
       price: 75000,
       sizes: ["S", "M", "L", "XL"],
@@ -230,7 +230,7 @@ export const initialData: SeedData = {
     {
       description:
         "La camiseta Ready con capilarización del sudor mantiene la frescura durante todas tus actividades de fitness. Cuenta con un ajuste holgado y un tejido transpirable de secado rápido para mantener la frescura cuando el entrenamiento se intensifica. Además, cuenta con mangas angulares para facilitar el movimiento, tanto al levantar pesas en el gimnasio como al estirar al aire libre.",
-      images: ["NikeVer.jpg", "NikeVer1.jpg"],
+      images: ["NikCam.jpg", "NikCam1.jpg"],
       inStock: 15,
       price: 75000,
       sizes: ["S", "M", "L", "XL"],
