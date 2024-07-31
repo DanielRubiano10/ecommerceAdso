@@ -1,4 +1,5 @@
-import { Box, Grid, Typography, Button, Chip } from "@mui/material";
+import { Box, Grid, Typography, Button } from "@mui/material";
+import Chip from "@mui/material";
 import { ShopLayout } from "../../components/layouts";
 import { ProductSlidesShow, SizeSelector } from "../../components/products";
 import { initialData } from "../../database/products";
@@ -19,10 +20,9 @@ const ProductPage = () => {
             <Typography variant="h1" component="h1">
               {product.title}
             </Typography>
-            <Typography
-              variant="subtitle1"
-              component="h2"
-            >{`$${product.price}`}</Typography>
+            <Typography variant="subtitle1" component="h2">
+              {`$${product.price}`}
+            </Typography>
             {/* cantidad */}
             <Box sx={{ my: 2 }}>
               <Typography variant="subtitle2">Cantidad</Typography>

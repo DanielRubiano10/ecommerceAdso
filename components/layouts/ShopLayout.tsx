@@ -1,3 +1,4 @@
+
 import { FC } from "react";
 import Head from "next/head";
 import { Navbar, SideMenu } from "../ui";
@@ -44,3 +45,4 @@ export const ShopLayout: FC<Props> = ({
     </>
   );
 };
+ 

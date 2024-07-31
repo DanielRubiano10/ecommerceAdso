@@ -1,18 +1,22 @@
-interface SeedProduct {
+export interface IProduct {
+  _id: string;
   description: string;
   images: string[];
   inStock: number;
   price: number;
-  sizes: ValidSizes[];
+  sizes: ISize[];
   slug: string;
   tags: string[];
   title: string;
-  type: ValidTypes;
-  gender: "hombre" | "mujer" | "unisex";
+  type: IType;
+  gender: "hombre" | "mujer" | "Productos";
+
+  createdAt: string;
+  updatedAt: string;
 }
 
-type ValidSizes = "XS" | "S" | "M" | "L" | "XL" | "XXL" | "3XL";
-type ValidTypes = "camisetas" | "buzos" | "Productos";
+export type ISize = "XS" | "S" | "M" | "L" | "XL" | "XXL" | "3XL";
+export type IType = "camisetas" | "buzos" | "Productos";
 
 interface SeedData {
   products: SeedProduct[];
@@ -264,7 +268,7 @@ export const initialData: SeedData = {
       type: "Productos",
       tags: ["react"],
       title: "Best 2.04 LB",
-      gender: "unisex",
+      gender: "Productos",
     },
     {
       description:
@@ -277,7 +281,7 @@ export const initialData: SeedData = {
       type: "Productos",
       tags: ["js"],
       title: "Best 4 LB",
-      gender: "unisex",
+      gender: "Productos",
     },
     {
       description:
@@ -290,7 +294,7 @@ export const initialData: SeedData = {
       type: "Productos",
       tags: ["ubuntu"],
       title: "Best 4 LB Bolsa",
-      gender: "unisex",
+      gender: "Productos",
     },
     {
       description:
@@ -303,7 +307,7 @@ export const initialData: SeedData = {
       type: "Productos",
       tags: ["angular"],
       title: "Bipro Classic",
-      gender: "unisex",
+      gender: "Productos",
     },
     {
       description:
@@ -316,7 +320,7 @@ export const initialData: SeedData = {
       type: "buzos",
       tags: ["special"],
       title: "Proton Whey",
-      gender: "hombre",
+      gender: "Productos",
     },
     {
       description:
@@ -329,7 +333,7 @@ export const initialData: SeedData = {
       type: "buzos",
       tags: ["frontend"],
       title: "ISO 100",
-      gender: "hombre",
+      gender: "Productos",
     },
     {
       description:
@@ -342,7 +346,7 @@ export const initialData: SeedData = {
       type: "buzos",
       tags: ["dev"],
       title: "Intenze",
-      gender: "hombre",
+      gender: "Productos",
     },
     {
       description:
@@ -355,7 +359,7 @@ export const initialData: SeedData = {
       type: "buzos",
       tags: ["hello-world"],
       title: "Electron",
-      gender: "hombre",
+      gender: "Productos",
     },
     {
       description:
@@ -368,7 +372,7 @@ export const initialData: SeedData = {
       type: "buzos",
       tags: ["binary"],
       title: "Energy Up",
-      gender: "hombre",
+      gender: "Productos",
     },
     {
       description:
@@ -381,7 +385,7 @@ export const initialData: SeedData = {
       type: "buzos",
       tags: ["phone"],
       title: "Smart gainer",
-      gender: "hombre",
+      gender: "Productos",
     },
     {
       description:
@@ -394,7 +398,7 @@ export const initialData: SeedData = {
       type: "buzos",
       tags: ["cloud"],
       title: "Golden mass",
-      gender: "hombre",
+      gender: "Productos",
     },
     {
       description:
@@ -407,7 +411,7 @@ export const initialData: SeedData = {
       type: "buzos",
       tags: ["cloud"],
       title: "Megaplez Power",
-      gender: "unisex",
+      gender: "Productos",
     },
     {
       description:
@@ -420,7 +424,7 @@ export const initialData: SeedData = {
       type: "buzos",
       tags: ["python"],
       title: "Crea 100%",
-      gender: "hombre",
+      gender: "Productos",
     },
     {
       description:
@@ -433,7 +437,7 @@ export const initialData: SeedData = {
       type: "buzos",
       tags: ["chrome"],
       title: "Creatine Time",
-      gender: "hombre",
+      gender: "Productos",
     },
     {
       description:
@@ -446,7 +450,7 @@ export const initialData: SeedData = {
       type: "buzos",
       tags: ["atom"],
       title: "Legacy",
-      gender: "hombre",
+      gender: "Productos",
     },
     {
       description:
@@ -459,7 +463,7 @@ export const initialData: SeedData = {
       type: "buzos",
       tags: ["hola"],
       title: "Hydroxycut",
-      gender: "hombre",
+      gender: "Productos",
     },
     {
       description:
@@ -472,7 +476,7 @@ export const initialData: SeedData = {
       type: "buzos",
       tags: ["emberd"],
       title: "Burner Stark",
-      gender: "hombre",
+      gender: "Productos",
     },
     {
       description:
@@ -485,7 +489,7 @@ export const initialData: SeedData = {
       type: "buzos",
       tags: ["dev-id"],
       title: "Lipo 6 Black Hers Ultra",
-      gender: "hombre",
+      gender: "Productos",
     },
   ],
 };

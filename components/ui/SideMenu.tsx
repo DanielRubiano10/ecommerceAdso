@@ -79,7 +79,7 @@ export const SideMenu = () => {
             <ListItemIcon>
               <WcOutlined />
             </ListItemIcon>
-            <ListItemText primary={"Unisex"} />
+            <ListItemText primary={"productos"} />
           </ListItem>
 
           <ListItem button>

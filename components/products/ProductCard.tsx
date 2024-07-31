@@ -1,12 +1,4 @@
-import {
-  Grid,
-  Card,
-  CardActionArea,
-  CardMedia,
-  Box,
-  Typography,
-  Link,
-} from "@mui/material";
+import {Grid,Card,CardActionArea,CardMedia,Box,Typography,Link,} from "@mui/material";
 import { FC, useMemo, useState } from "react";
 import { IProduct } from "../../interfaces";
 
