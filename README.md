@@ -28,14 +28,15 @@ yarn dev
 Llamara:
 
 ```
+http://localhost:3000/auth/register
+http://localhost:3000/auth/login
 http://localhost:3000
-<<<<<<< HEAD
-=======
 http://localhost:3000/product/slug
+http://localhost:3000/EmptyPage
 http://localhost:3000/api/seed
 http://localhost:3000/cart/empty
 http://localhost:3000/cart
->>>>>>> fdb68238edf7f762831049ae606ab3ed335d741c
+http://localhost:300/cart/empty
 ```
 #capturas UI
 ![image](https://github.com/DanielRubiano10/ecommerceAdso/assets/128107508/2b1b747f-518b-4ac7-8880-529bef3bff13)

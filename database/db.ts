@@ -1,11 +1,4 @@
 import mongoose from "mongoose";
-
-/**estados de mi conexión a la db 
-0 = disconnected
-1 = connected
-2 = connecting
-3 = disconnecting */
-
 const mongoConnection = {
   isConnected: 0,
 };
